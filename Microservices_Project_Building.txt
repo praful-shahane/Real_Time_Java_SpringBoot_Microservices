@@ -1,0 +1,92 @@
++++++++++++++++++++++++
+Microservices-1
+++++++++++++++++++++++
+
+Microservices is not a framework, not technology, not API.
+it is an Architectural Design Pattern.
+Microservices Design Pattern cam into market to avoid problems of monolithic architecture.
+Microservices Design Pattern not only related to java. it is universal design pattern anybody can follow this design pattern.
+
+Monolithic
+---------------
+->built on one large system.
+->not easy to scale based on demand.
+->it has shared database.
+->large code base make IDE slow.
+->Continuous deployment is difficult.
+-> it is diff to change technology or language or framework bcz everything is tightly coupled.
+
+Microservices
+-------------------
+-> built as a small independent module.
+-> easy to scale based on demand.
+->Each service has own database.
+->Each project is independent & small in size.
+->Continuous deployment is possible here. 
+->Easy to change technology or framework bcz every module & project is independent.
+
+
+Benefits of Microservices
+--------------------------------
+->independent scalability(n of replica of service).
+->independent deployment.
+->fault isolation improves resillience.
+->faster development.
+
+challanges of Microservices
+--------------------------------
+->Dristibuted system complexity.
+->Data consistency issues.
+->inter-service communivation.
+->operational overhead :- n no.of CI/CD pipelines.
+->Testing and debugging complexity.
+
+
+Tech stack
+--------------
+Lang:- JAVA(SpringBoot)
+containers:- Docker
+orchestration :- Kubernates.
+CI/CD : jenkins
+Monitoring : Prometheus,Grafana.
+Messaging : kafka.
+Database: MySQL, MongoDB.
+Cloud :- AWS.
+
+E-Commerce Application
+========================
+->it allows users to buy & sell goods or buy services online.
+->it handles various business process such as browsing products,managing orders, processing payments & delivering items- all digitally.
+
+
+
+typical workflow in E-Commerce System
+=======================================
+
+1)User Registration & Login.
+2)Product
+3)Add to cart.
+4)Order checkout
+5)Payment for order.
+6)Delivery.
+
+
++++++++++++++++++++++++
+Microservices-2
+++++++++++++++++++++++
+
+1)Building user-service.
+=>
+
+//15.30
+
+
+
+
+
+
+
+
+
+
+
